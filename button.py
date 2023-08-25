@@ -7,8 +7,10 @@ button = Button(2)
 
 while True:
     button.when_pressed = led.on
-    sleep(2)
+    #sleep(2)
     button.when_pressed = led.off
-    sleep(2)
+    #sleep(2)
+    
+    
 
-pause()
+#pause()
